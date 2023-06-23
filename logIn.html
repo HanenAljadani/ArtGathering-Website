@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="Style.css">
+		<script src="javaScript.js"></script>
+    </head>
+<body> 
+            <!--Menu&Logo----->
+			<div class="logo">
+				<h3><span>Art</span>Gathering</li></h3>
+				</div>
+						<ul class="menu">
+						<li><a href="Index.html">Home</a></li>
+						<li><a href="Shop.html">Shop</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Signup.php" class="signup">Signup </a></li>
+						<li><a href="logIn.html" >Login  </a></li>
+					</ul>
+					
+					<section class="background">
+					<!--Log in Form----->
+		            <div class="signup">
+					<form class="login" method="POST" Action="loginSelectData.php">
+						<h2> Login<span>.</span> </h2>
+						<p>Welcome back! Log in to your account:</p>
+						
+						<!--Email----->
+						<input  onfocus="myFunFocus(this)" name="email" onblur="myBlurFunction2(this)" type="text" class="login__input" placeholder="Email">
+						<!--Password----->
+						<input  onfocus="myFunFocus(this)" name="password" onblur="myBlurFunction2(this)" type="password" class="login__input" placeholder="Password"><br><br><br><br><br>
+						
+					    <button class="login_button"> Log in now </button>
+						
+						<!--help options----->
+						<p>Need help? <a href="Reset Password.html">Forgot your password?</a></p>
+						
+					    <p> New to ArtGathering? <a href="Signup.html">Sign up now</a></p>	
+                       
+			
+					</form>
+					
+				
+		</div>
+		
+		
+		<!--Footer section----->
+		 <footer>
+				<a href = "https://twitter.com/"> <img src="images/icons/twitter.png" alt="twitterLogo" ></a>
+				<a href = "https://www.snapchat.com/"><img src="images/icons/snapchat.png" alt="snapLogo" ></a>
+				<a href = "https://instagram.com/"><img src="images/icons/instagram.png" alt="instagramLogo" ></a>
+			<p><b>Info.Support.Marketing</b></p>
+			<p><b>Terms of Use.Privacy Policy</b></p>
+			<p id="footer">@2030 ArtGathering</p>
+	</footer>
+		</section>
+    </body>
+</html>
